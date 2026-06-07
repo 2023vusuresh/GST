@@ -291,12 +291,12 @@ def load_hsn_data():
 
 @st.cache_data
 def load_gst_scenarios():
-    df = pd.read_excel("GST_Complete_Dataset.xlsx", sheet_name="GST Dataset")
+    df = pd.read_excel("GST_Complete_Dataset (2).xlsx", sheet_name="GST Dataset")
     return df
 
 @st.cache_data
 def load_rate_breakup():
-    df = pd.read_excel("GST_Complete_Dataset.xlsx", sheet_name="Tax Calculator")
+    df = pd.read_excel("GST_Complete_Dataset (2).xlsx", sheet_name="Tax Calculator")
     return df
 
 @st.cache_data
